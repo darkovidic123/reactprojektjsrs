@@ -1,38 +1,186 @@
-.App {
+body{background-color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+height: 100%;}
+
+.botun{background-color: #4CAF50; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    border: 1px solid red;
+    
+    cursor: pointer;
+}
+
+.botun11{background-color: white; 
+  border: none;
+  color: black;
+  padding: 15px 32px;
   text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; 
+  border: 2px solid black;
+  
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.naslov{text-align: center;}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.tablica{margin-left: auto;
+margin-right: auto;
+background-color: white;
+
+ }
+
+.tekst{font-size: 20px;
+float:left;}
+
+
+li {
+    display: inline; 
   }
+.osnova{text-align: center;}
+
+.tekst2{float:right;}
+
+.tdbotuni{text-align: center;
+background-color: black;}
+
+.slika3{width:90%;
+height: 300px;
+
+margin-left: 5%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.marjan{margin-left: 20%;}
+
+.duje{margin-left: 26%;}
+
+.hedslika{margin-left: 21%;}
+
+.td{width:50%;
+height:300px;}
+
+.slika4{width:90%;
+height:300px;
+
+margin-left: 5%;}
+
+.tde{float:top;}
+
+.footer{display: block;
+  width:100%;
+  height:150px;
+  color: black;
+text-align: center;}
+
+  .tablica3{background-color: gray;
+  width:100%;
 }
 
-.App-link {
-  color: #61dafb;
+.prava{font-size: small;
+}
+.slika5{float:left;
+  margin-left: 15%;
+height:100%;
+width:150px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.slika6{float:right;
+  margin-right: 15%;
+height:150px;
+width:200px;}
+
+.tekst1{text-align: center;}
+
+  a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
   }
-  to {
-    transform: rotate(360deg);
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
   }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  .kotari{text-align: center;}
+
+  .povratak{background-color: gray; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    border: 0px solid red;
+    margin-left: 42%;
+    
+    cursor: pointer;}
+
+    .slika7{height:250px;
+    width:100%;}
+
+    .tdhiper{
+      width:33%;
+      height:350px;
+    }
+  .registar{text-align: center;}
+
+  .forma{margin-left: 43%;}
+
+  .split{text-align: center;}
+
+  .botun{background-color: #4CAF50; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    border: 1px solid red;
+    
+    cursor: pointer;
 }
+
+.slika19{margin-left: 25%;}
+
+.slika20{margin-left: 35%;}
+
+.povratak1{background-color: gray; 
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; 
+  border: 0px solid red;
+  margin-left: 34%;
+  
+  cursor: pointer;}
+
+  .povratak2{background-color: gray; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    border: 0px solid red;
+    margin-left: 41%;
+    
+    cursor: pointer;}
